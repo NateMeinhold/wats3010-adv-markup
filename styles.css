@@ -1,5 +1,37 @@
 /* Styles for the Advanced Markup assignment. */
 
+/* Aside Styles. */
+
+#sidebar{
+    float: right;
+    width:25%;
+    background: beige;
+    margin: 20px;
+    padding: 10px;
+    border-style:solid;
+    border: 5px, black;
+}
+
+dt {
+    font-weight: 900;
+}
+
+dd{
+    text-align: center;
+    font-weight: 300; 
+}
+
+.bio-photo{
+    width:25%;
+    float: left;
+    background: #cccccc;
+    margin: 10px;
+    padding: 5px;
+}
+.bio-photo img {
+    width: 100%;
+    height: auto;
+}
 nav ul li{
     display: inline;
     border: solid 1px black;
@@ -11,3 +43,25 @@ nav ul li{
     background: #cccccc;
     padding: 5 px;    
 }
+
+/* Styles for the Advanced Markup assignment. */
+
+table {
+    width: 100%; 
+    text-align: left;
+}
+
+dt {
+    font-weight:900;
+    text-align:left;
+}
+
+/* styles for the poem*/
+.poem {
+    list-style-type: none;
+}
+.poem ::first-letter {
+    font-size: 110%;
+    color: black;
+    font-style: italic;
+    }
