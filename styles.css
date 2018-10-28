@@ -24,7 +24,7 @@ dd{
 .bio-photo{
     width:25%;
     float: left;
-    background: #cccccc;
+    background: beige;
     margin: 10px;
     padding: 5px;
 }
@@ -35,25 +35,38 @@ dd{
 nav ul li{
     display: inline;
     border: solid 1px black;
-    padding: 5 px;
+    padding: 7px;
+}
+nav ul li :hover {
+    background-color: yellow;
+}
+
+nav ul li a:link, a:visited {
+    color:black
 }
 
 .active{
     font-weight: 900;
-    background: #cccccc;
-    padding: 5 px;    
+    background: beige;
+    padding: 7px;    
 }
 
 /* Styles for the Advanced Markup assignment. */
+/*styles for the table*/
 
 table {
     width: 100%; 
     text-align: left;
+    background:beige;
 }
 
 dt {
     font-weight:900;
     text-align:left;
+}
+
+.header {
+    font-style:italic;
 }
 
 /* styles for the poem*/
